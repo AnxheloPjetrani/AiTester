@@ -14,7 +14,8 @@
     </padding>
 
     <Label text="Enter URL:"/>
-    <TextField fx:id="urlField" promptText="https://example.com"/>
-    <Button text="Test URL" onAction="#onTestUrlClick"/>
+    <TextField fx:id="urlField" promptText="https://example.com" />
+    <Button text="Test &amp; Get DOM" onAction="#onTestUrlClick"/>
     <Label fx:id="resultLabel"/>
+    <TextArea fx:id="domTextArea" prefHeight="300" prefWidth="350" wrapText="true"/>
 </VBox>
